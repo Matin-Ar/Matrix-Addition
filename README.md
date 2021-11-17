@@ -1,7 +1,7 @@
 # Matrix Addition
 
 Step 1: Completely uninstall any previous CUDA versions.We need to refresh the Cloud Instance of CUDA.
-apt-get --purge remove cuda nvidia* libnvidia-*
+  apt-get --purge remove cuda nvidia* libnvidia-*
   dpkg -l | grep cuda- | awk '{print $2}' | xargs -n1 dpkg --purge
   apt-get remove cuda-*
   apt autoremove
