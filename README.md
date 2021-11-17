@@ -1,4 +1,4 @@
-# Matrix Addition
+# Matrix Addition with CUDA
 
 ### Step 1: Completely uninstall any previous CUDA versions.We need to refresh the Cloud Instance of CUDA.
 ```
