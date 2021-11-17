@@ -9,7 +9,7 @@ Step 2: Completely uninstall any previous CUDA versions.We need to refresh the C
   !apt autoremove
   !apt-get update
   
-Step 3: Install CUDA Version 9 (You can just copy it in separate code block).
+Step 3: Install CUDA Version 9.
   !wget https://developer.nvidia.com/compute/cuda/9.2/Prod/local_installers/cuda-repo-ubuntu1604-9-2-local_9.2.88-1_amd64 -O cuda-repo-ubuntu1604-9-2-local_9.2.88-1_amd64.deb
   !dpkg -i cuda-repo-ubuntu1604-9-2-local_9.2.88-1_amd64.deb
   !apt-key add /var/cuda-repo-9-2-local/7fa2af80.pub
